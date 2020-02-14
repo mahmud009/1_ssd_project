@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #373640;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  color: #373640;
+}
+
+.prt_wrapper {
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+  position: fixed;
+}
+
+.prt_content {
+  background: white;
+  width: 500px;
+  height: 540px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 7px 9px 72px -39px rgba(0, 0, 0, 0.75);
+}
+
+.prt_img_wrapper {
+  width: 100%;
+  height: 60px;
+}
+
+.prt_img_wrapper img {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prt_title_wrapper {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.prt_title_wrapper h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.prt_title_wrapper p {
+  padding-top: 5px;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.prt_button_wrapper {
+  width: 100%;
+  padding: 20px 60px 20px 60px;
+  height: auto;
+
+  text-align: center;
+}
+
+.prt_button_wrapper button {
+  background: #00b7a8;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 0;
+  width: 100%;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+
+.prt_button_wrapper button:hover {
+  background: #00c9b8;
+}
+
+.prt_button_wrapper button span {
+  margin-left: 30px;
+  position: relative;
+}
+
+.prt_button_wrapper button span:before {
+  content: " ";
+  background-image: url(assets/img/select.png);
+  background-size: cover;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: -35px;
+  top: -8px;
+}
+
+.prt_desc_wrapper {
+  width: 100%;
+  height: auto;
+
+  padding: 0 60px 20px 60px;
+  text-align: center;
+}
+
+.prt_desc_wrapper p {
+  opacity: 0.9;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.prt_icons_wrapper {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.prt_icons_wrapper a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+.prt_icons_wrapper a i {
+  font-family: "Font Awesome 5 Brands";
+  margin: 3px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #373640;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.prt_icons_wrapper a i:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prt_icons_wrapper a i:hover {
+  background-color: #41404b;
+}
