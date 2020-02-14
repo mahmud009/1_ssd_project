@@ -149,7 +149,7 @@ body {
   background-color: #41404b;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 400px) {
   .prt_wrapper {
     width: 100%;
 
@@ -157,7 +157,7 @@ body {
   }
 
   .prt_content {
-    width: 400px;
+    width: 350px;
     height: 600px;
   }
 }
