@@ -149,15 +149,4 @@ body {
   background-color: #41404b;
 }
 
-@media (max-width: 400px) {
-  .prt_wrapper {
-    width: 100%;
 
-    margin-top: 0;
-  }
-
-  .prt_content {
-    width: 350px;
-    height: 600px;
-  }
-}
