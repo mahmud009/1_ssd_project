@@ -148,3 +148,10 @@ body {
 .prt_icons_wrapper a i:hover {
   background-color: #41404b;
 }
+
+@media (max-width: 768px) {
+  .prt_content {
+    width: 400px;
+    height: 600px;
+  }
+}
