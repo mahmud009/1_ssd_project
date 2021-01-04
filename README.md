@@ -1,2 +1,2 @@
-# 1_ssd_project
+# Simple portfolio
 A portfolio project
